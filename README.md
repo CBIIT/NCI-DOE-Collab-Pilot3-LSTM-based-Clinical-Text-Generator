@@ -22,5 +22,5 @@ Researchers have commonly used machine learning to classify molecular data. This
   * The trained model weights are used in inference [tc1.model.h5](https://modac.cancer.gov/searchTab?dme_data_id=NCI-DME-MS01-6996872)
 
 ### Technical Details:
-Refer to this [README](./Pilot1/TC1/README.md)
+Refer to this [README](./Pilot3/P3B2/README.md)
 
