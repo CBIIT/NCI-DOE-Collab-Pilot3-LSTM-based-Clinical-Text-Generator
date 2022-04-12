@@ -5,6 +5,23 @@
 
 **Expected Outcomes**:A generative RNN based on LSTMs that can effectively generate synthetic biomedical text of desired clinical context.
 
+
+### Setup
+To set up the Python environment needed to train and run this model:
+1. Install [conda](https://docs.conda.io/en/latest/) package manager. 
+2. Clone this repository. 
+3. Create the environment as shown below.
+
+```bash
+   conda env create -f environment.yml -n P3B2
+   conda activate P3B2
+   ```
+
+To download the processed data needed to train and test the model, and the trained model files:
+1. Create an account on the Model and Data Clearinghouse [MoDaC](https://modac.cancer.gov). 
+2. Follow the instructions in the Training section below.
+3. When prompted by the training and test scripts, enter your MoDaC credentials.
+
 ### Benchmark Specs
 
 #### Description of the Data
