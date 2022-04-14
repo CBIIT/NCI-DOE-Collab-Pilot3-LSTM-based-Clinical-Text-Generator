@@ -77,4 +77,5 @@ The model generates text files that are stored as ```example_<epoch>_<text-numbe
                     DiagnosisWZing Pathology Laboratory is certified under this report. **NAME[M. SSS dessDing Adientation of the tissue is submitted in the same container labeled with the patient's name and designated 'subcarinal lymph node is submitted in toto in cassette A1. B. Received in formalin labeled "right lower outer quadrant; A11-A10 - slice 16 with a cell block and submitted in cassette A1. B. Received fresh for
 ```
 
-candle preinstalled
+## Acknowledgments
+This work has been supported in part by the Joint Design of Advanced Computing Solutions for Cancer (JDACS4C) program established by the U.S. Department of Energy (DOE) and the National Cancer Institute (NCI) of the National Institutes of Health.
