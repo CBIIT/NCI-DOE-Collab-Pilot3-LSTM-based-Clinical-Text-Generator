@@ -69,7 +69,7 @@ At each iteration of the training process, the script outputs the model architec
 
 An example model (in JSON format) is shown below.
 ```
-{"class_name": "Sequential", "keras_version": "1.1.0", "config": [{"class_name": "LSTM", "config": {"inner_activation": "hard_sigmoid", "trainable": true, "inner_init": "orthogonal", "output_dim": 256, "unroll": false, "consume_less": "cpu", "init": "glorot_uniform", "dropout_U": 0.0, "input_dtype": "float32", "batch_input_shape": [null, 20, 99], "input_length": null, "dropout_W": 0.0, "activation": "tanh", "stateful": false, "b_regularizer": null, "U_regularizer": null, "name": "lstm_1", "go_backwards": false, "input_dim": 99, "return_sequences": false, "W_regularizer": null, "forget_bias_init": "one"}}, {"class_name": "Dense", "config": {"W_constraint": null, "b_constraint": null, "name": "dense_1", "activity_regularizer": null, "trainable": true, "init": "glorot_uniform", "bias": true, "input_dim": null, "b_regularizer": null, "W_regularizer": null, "activation": "linear", "output_dim": 99}}, {"class_name": "Activation", "config": {"activation": "softmax", "trainable": true, "name": "activation_1"}}]}
+{"class_name": "Sequential", "keras_version": "1.1.0", "config": [{"class_name": "LSTM", "config": {"inner_activation": "hard_sigmoid", "trainable": <br/>true, "inner_init": "orthogonal", "output_dim": 256, "unroll": false, "consume_less": "cpu", "init": "glorot_uniform", "dropout_U": 0.0, <br/>"input_dtype": "float32", "batch_input_shape": [null, 20, 99], "input_length": null, "dropout_W": 0.0, "activation": "tanh", "stateful": false, <br/>"b_regularizer": null, "U_regularizer": null, "name": "lstm_1", "go_backwards": false, "input_dim": 99, "return_sequences": false, "W_regularizer": <br/>null, "forget_bias_init": "one"}}, {"class_name": "Dense", "config": {"W_constraint": null, "b_constraint": null, "name": "dense_1", <br/>"activity_regularizer": null, "trainable": true, "init": "glorot_uniform", "bias": true, "input_dim": null, "b_regularizer": null, "W_regularizer": <br/>null, "activation": "linear", "output_dim": 99}}, {"class_name": "Activation", "config": {"activation": "softmax", "trainable": true, "name": <br/>"activation_1"}}]}
 ```
 
 #### Sample text generated
@@ -78,7 +78,7 @@ The model generates text files that are stored as ```example_<epoch>_<text-numbe
 An example output may look like this:
 ```
 ----- Generating with seed: "Diagnosis"
-                    DiagnosisWZing Pathology Laboratory is certified under this report. **NAME[M. SSS dessDing Adientation of the tissue is \nsubmitted in the same container labeled with the patient's name and designated 'subcarinal lymph node is submitted in toto in cassette A1. B. Received in \nformalin labeled "right lower outer quadrant; A11-A10 - slice 16 with a cell block and submitted in cassette A1. B. Received fresh for
+                    DiagnosisWZing Pathology Laboratory is certified under this report. **NAME[M. SSS dessDing Adientation of the tissue is submitted in <br/>the same container labeled with the patient's name and designated 'subcarinal lymph node is submitted in toto in cassette A1. B. Received in <br/>formalin labeled "right lower outer quadrant; A11-A10 - slice 16 with a cell block and submitted in cassette A1. B. Received fresh for
 ```
 
 ## Training
