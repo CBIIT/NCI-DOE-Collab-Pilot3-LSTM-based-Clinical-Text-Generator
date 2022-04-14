@@ -19,5 +19,5 @@ Generative models of text is a known problem in the natural language proce
   * The preprocessed training and test data of SEER clinical pathology reports are in [MoDaC](https://modac.cancer.gov/assetDetails?returnToSearch=true&&dme_data_id=NCI-DME-MS01-18031472).
 
 ### Technical Details
-Refer to this [README](./Pilot3/P3B2/README.md)
+Refer to this [README](./Pilot3/P3B2/README.md).
 
