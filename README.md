@@ -1,7 +1,7 @@
 # NCI-DOE-Collab-Pilot3-RNN-LSTM-based-Clinical-Text-Generator
 
 ### Description
-Given a sample corpus of biomedical text such as pathology reports, this resource builds a long short-term memory (LSTM) model, a type of recurrent neural network (RNN), to automatically generate synthetic biomedical text of desired clinical context. This resource addresses the challenge of collecting labeled data, specifically clinical data, needed to create robust machine learning and deep learning models.
+Given a sample corpus of biomedical text (i.e. pathology reports), this resource builds a long short-term memory (LSTM) model, a type of recurrent neural network (RNN), to automatically generate synthetic biomedical text of desired clinical context. This resource addresses the challenge of collecting labeled data, specifically clinical data, needed to create robust machine learning and deep learning models.
 
 ### User Community
 Data scientists interested in generating more examples of unstructured text with a specific label from a given corpus. The data produced can be used for training machine learning or deep learning models on clinical text.
