@@ -1,26 +1,23 @@
 # NCI-DOE-Collab-Pilot3-RNN-LSTM-based-Clinical-Text-Generator
 
-### Description:
-The Tumor Classifier capability (TC1) shows how to train and use a neural network model to classify tumor types from molecular features (such as RNA-Seq expressions) provided in Genomics Data Commons (GDC).
+### Description
+Given a sample corpus of biomedical text such as pathology reports, this resource builds a long short-term memory (LSTM) model, a type of recurrent neural network (RNN), to automatically generate synthetic biomedical text of desired clinical context. This resource addresses the challenge of collecting labeled data, specifically clinical data, needed to create robust machine learning and deep learning models.
 
-### User Community:	
-Researchers interested in cancer susceptibility/histology; classification of diseases for oncology; cancer biology.
+### User Community
+Data scientists interested in generating more examples of unstructured text with a specific label from a given corpus. The data produced can be used for training machine learning or deep learning models on clinical text.
 
-### Usability:	
-Data scientists can train the provided untrained model on their own data, or use the trained model to classify the provided test samples. The provided scripts use data that have been downloaded from GDC and normalized.
+### Usability	
+Data scientists can train the provided untrained model on their own data or with preprocessed data of clinical pathology reports from [SEER](https://seer.cancer.gov/) included with this resource. 
 
-### Uniqueness:	
-Researchers have commonly used machine learning to classify molecular data. This capability shows how you can use neural networks in classification of genomic profiles without downsampling the provided expressions.
+To use this resource, users must be familiar with natural language processing (NLP) and training neural networks, specifically RNNs.
 
-### Components:	
-* Untrained model: 
-  * The untrained neural network model is defined in [tc1.model.json](https://modac.cancer.gov/searchTab?dme_data_id=NCI-DME-MS01-6996872), and is also available in YAML format.
+### Uniqueness	
+Generative models of text is a known problem in the natural language processing community. The model architecture provided in this resource was tested on unstructured clinical data and can be further optimized using the [CANDLE platform](https://datascience.cancer.gov/collaborations/joint-design-advanced-computing/candle). 
+
+### Components	
 * Data:
-  * The processed training and test data are in [MoDaC](https://modac.cancer.gov/searchTab?dme_data_id=NCI-DME-MS01-6996872).
-* Trained model:
-  * The trained model is defined by combining the untrained model and model weights.
-  * The trained model weights are used in inference [tc1.model.h5](https://modac.cancer.gov/searchTab?dme_data_id=NCI-DME-MS01-6996872)
+  * The preprocessed training and test data of SEER clinical pathology reports are in [MoDaC](https://modac.cancer.gov/assetDetails?returnToSearch=true&&dme_data_id=NCI-DME-MS01-18031472).
 
-### Technical Details:
+### Technical Details
 Refer to this [README](./Pilot3/P3B2/README.md)
 
