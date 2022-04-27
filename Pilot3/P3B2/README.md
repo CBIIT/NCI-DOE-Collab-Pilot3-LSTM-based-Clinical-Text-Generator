@@ -34,7 +34,7 @@ To download the preprocessed data needed to train and test the model:
 To train the model from scratch, run [p3b2_baseline_keras2.py](https://github.com/CBIIT/NCI-DOE-Collab-Pilot3-RNN-LSTM-based-Clinical-Text-Generator/blob/master/Pilot3/P3B2/p3b2_baseline_keras2.py). 
 
 ```
-python keras_p3b2_baseline.py
+python p3b2_baseline_keras2.py
 ```
 
 This script does the following:
