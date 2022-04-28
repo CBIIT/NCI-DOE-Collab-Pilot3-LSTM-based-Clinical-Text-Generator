@@ -1,5 +1,3 @@
-# RNN-LSTM based Clinical Text Generator
-
 ## Model Description
 
 The RNN-LSTM based Clinical Text Generator trains a Long Short-Term Memory, or LSTM, recurrent neural network, using Keras, a deep learning library, on a given sample corpus of biomedical text (i.e. pathology reports). The trained model can then be used to synthesize text documents similar in context to the sample corpus.
